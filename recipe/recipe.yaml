@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.11.0"
+  version: "0.11.2"
   # litellm's fastuuid dependency has no py3.10 osx-64 build; keep in sync
   # with upstream's ">=3.10" once that's resolved.
 
@@ -12,7 +12,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/l/langchain-litellm/langchain_litellm-${{ version }}.tar.gz
-  sha256: 0d2025c1159d10c45afa197c47c10cf1841794b53ebed0e33066affdefca3bc3
+  sha256: 40d5ac594563fdc5a83364415987a4fe246cff3e78263e3650a08adc8103e1e7
 
 build:
   number: 0
